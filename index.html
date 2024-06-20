@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades en JavaScript</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Actividades en JavaScript</h1>
+
+    <div class="activity">
+        <h2>Invertir una Cadena</h2>
+        <input type="text" id="invertirCadenaInput" placeholder="Ingresa una cadena">
+        <button onclick="invertirCadena()">Invertir</button>
+        <div id="invertirCadenaResult" class="result"></div>
+    </div>
+
+    <div class="activity">
+        <h2>Número Primo</h2>
+        <input type="number" id="numeroPrimoInput" placeholder="Ingresa un número">
+        <button onclick="esPrimo()">Verificar</button>
+        <div id="numeroPrimoResult" class="result"></div>
+    </div>
+
+    <div class="activity">
+        <h2>Eliminar Duplicados en un Arreglo</h2>
+        <input type="text" id="eliminarDuplicadosInput" placeholder="Ingresa números separados por comas">
+        <button onclick="eliminarDuplicados()">Eliminar Duplicados</button>
+        <div id="eliminarDuplicadosResult" class="result"></div>
+    </div>
+
+    <div class="activity">
+        <h2>Factorial de un Número</h2>
+        <input type="number" id="factorialNumeroInput" placeholder="Ingresa un número">
+        <button onclick="factorial()">Calcular Factorial</button>
+        <div id="factorialNumeroResult" class="result"></div>
+    </div>
+
+    <div class="activity">
+        <h2>Contar Vocales</h2>
+        <input type="text" id="contarVocalesInput" placeholder="Ingresa una cadena">
+        <button onclick="contarVocales()">Contar Vocales</button>
+        <div id="contarVocalesResult" class="result"></div>
+    </div>
+
+    <div class="activity">
+        <h2>Sumar los Números de un Arreglo</h2>
+        <input type="text" id="sumarNumerosInput" placeholder="Ingresa números separados por comas">
+        <button onclick="sumarNumeros()">Sumar Números</button>
+        <div id="sumarNumerosResult" class="result"></div>
+    </div>
+
+    <div class="activity">
+        <h2>Buscar el Máximo en un Arreglo</h2>
+        <input type="text" id="maximoArregloInput" placeholder="Ingresa números separados por comas">
+        <button onclick="buscarMaximo()">Buscar Máximo</button>
+        <div id="maximoArregloResult" class="result"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
